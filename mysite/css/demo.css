@@ -15,6 +15,9 @@
 }
 
 /* Header */
+.header {
+	overflow: hidden; /* for top bar */
+}
 .header .inner,
 .tablet-nav .header .inner {
 	padding-top: 35px;
@@ -31,17 +34,6 @@ h1.heroHeading::after {
 	/* content: "V3"; */
 	font-size: 25px;
 	vertical-align: text-top;
-}
-
-/* Homepage buttons */
-.action-buttons {
-	position: fixed;
-	top: 0;
-	right: 31px;
-}
-.Actions.action-buttons a.btn {
-	margin-top: 0;
-	padding: 3px 9px;
 }
 
 /* Nav */
@@ -103,8 +95,14 @@ nav.secondary {
 	.unit.content-container {
 		margin-bottom: 0;
 	}
+	.homeColumn {
+		width: 100%;
+	}
 	.homeColumn iframe {
 		max-width: 100%;
 	}
-
+	.homeColumn.lastUnit {
+		float: left;
+		width: 100%;
+	} 
 }

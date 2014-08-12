@@ -1,4 +1,10 @@
 <header class="header" role="banner">
+	<div class="global-nav header-mask" data-0="background-position: 50% 50%;" data-544="background-position: 50% -30%;">
+		<div id="navWrapper" class="external">
+			$GlobalNav
+			<% include SearchBox %>
+		</div>
+	</div>
 	<div class="inner">
 		<div class="unit size4of4 lastUnit">
 			<a href="$BaseHref" class="brand" rel="home">
@@ -17,7 +23,3 @@
 		</div>
 	</div>
 </header>
-<div class="action-buttons Actions">
-	<a href="./admin" class="btn">Log in</a>
-	<a href="http://www.silverstripe.org/stable-download/" class="btn">Download</a>
-</div>
