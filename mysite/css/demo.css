@@ -36,6 +36,25 @@ h1.heroHeading::after {
 	vertical-align: text-top;
 }
 
+/* Homepage buttons */
+.action-buttons {
+	position: fixed;
+	top: 0;
+	right: 31px;
+}
+.Actions.action-buttons a.btn {
+	margin-top: 0;
+	padding: 3px 9px;
+}
+
+.action-buttons .back-link:before { /* creates arrow for back link */
+    content: '\003c';
+    font-family: 'WebSymbolsRegular';
+    font-size: 14px;
+    color: #fff;
+    margin-right: 9px;
+}
+
 /* Nav */
 nav.secondary {
 	margin-bottom: 25px;

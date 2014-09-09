@@ -1,23 +1,13 @@
 {
 	"name": "silverstripe/demo.silverstripe.org",
 	"description": "Demo SilverStripe Project",
-	"repositories": [
-        {
-            "type": "vcs",
-            "url": "git://github.com/mandrew/silverstripe-globaltoolbar.git"
-        }
-    ],
 	"require": {
 		"php": ">=5.3.2",
 		"silverstripe/cms": "3.1.x-dev",
 		"silverstripe/framework": "3.1.x-dev",
 		"silverstripe-themes/simple": "*",
-		"silverstripe/raygun": "*@dev",
-		"silverstripe/toolbar": "*"
+		"silverstripe/raygun": "*@dev"
 	},
-	"require-dev": {
-        "silverstripe/toolbar": "dev-search"
-    },
 	"config": {
 		"process-timeout": 600	
 	},
